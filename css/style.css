@@ -1,0 +1,43 @@
+@import url(reset.css);
+@font-face {
+  font-family: 'CatalinaAnacapaSlabLight';
+  src: url("../type/CatalinaAnacapaSlabLight.eot");
+  src: url("../type/CatalinaAnacapaSlabLight.eot?#iefix") format("embedded-opentype"), url("../type/CatalinaAnacapaSlabLight.woff") format("woff"), url("../type/CatalinaAnacapaSlabLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+@font-face {
+  font-family: 'CatalinaTypewriterLight';
+  src: url("../type/CatalinaTypewriterLight.eot");
+  src: url("../type/CatalinaTypewriterLight.eot?#iefix") format("embedded-opentype"), url("../type/CatalinaTypewriterLight.woff") format("woff"), url("../type/CatalinaTypewriterLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+body {
+  font: 1.125em "CatalinaTypewriterLight", Georgia, serif;
+  padding: 2rem;
+  color: #fae1c8;
+  background-color: #230f00; }
+
+h1 {
+  color: #c89664;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font: 3rem "CatalinaAnacapaSlabLight", Arial Narrow, sans-serif; }
+
+h2 {
+  color: #c89664;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font: 2rem "CatalinaAnacapaSlabLight", Arial Narrow, sans-serif; }
+
+p, ul {
+  line-height: 1.5rem;
+  padding-bottom: 1rem; }
+
+@media (min-width: 700px) {
+  body {
+    width: 650px;
+    margin: 0 auto; } }
